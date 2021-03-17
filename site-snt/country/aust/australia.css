@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "Bitsumishi";
+  src: url("./../../Bitsumishi/fonts/bitsumishi.eot"); /* IE9 Compat Modes */
+  src: url("./../../Bitsumishi/fonts/bitsumishi.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./../../Bitsumishi/fonts/bitsumishi.otf") format("opentype"), /* Open Type Font */
+    url("./../../Bitsumishi/fonts/bitsumishi.svg") format("svg"), /* Legacy iOS */
+    url("./../../Bitsumishi/fonts/bitsumishi.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./../../Bitsumishi/fonts/bitsumishi.woff") format("woff"), /* Modern Browsers */
+    url("./../../Bitsumishi/fonts/bitsumishi.woff2") format("woff2"); /* Modern Browsers */
+}
+@font-face
+{
+	font-family: "kasse";
+	src: url(./../../kasse/KasseFLF.ttf) format("truetype");
+}
+/* rugby:40px; tap:22px;
+#810C12: couleur ballon logo*/
+body
+{
+	background: linear-gradient(#FF7838 ,white) no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-family: sans-serif;
+}
+
+
+header
+{
+	display: flex;
+	align-items: center;
+}
+h1, h2
+{
+	font-family: "Bitsumishi", sans-serif;
+	padding: 0px;
+	font-size: 40px;
+	font-weight: normal;
+}
+h2
+{
+	font-size: 35px;
+	text-decoration: underline;
+}
+h3
+{
+	font-family: "kasse", sans-serif;
+	font-size: 29px;
+	padding-bottom: 0px;
+	margin-bottom: 5px;
+}
+
+
+nav
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	align-content: stretch;
+	margin-bottom: 2em;
+}
+a
+{
+	color: black;
+	font-family: "Bitsumishi", sans-serif;
+	font-size: 22px;
+}
+a:hover
+{
+	text-decoration: none;
+	color: #810C12;
+	border: 2px #810C12 inset;
+}
+#contact-lien:hover, #main-lien:hover
+{
+	border: none;
+}
+
+
+footer
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#source, #contact
+{
+	width: 150px;
+	text-align: center;
+}
+#creator
+{
+	text-align: center;
+	border-left: 1px black solid;
+	border-right: 1px black solid;
+	padding: 25px;
+}
+em
+{
+	font-style: normal;
+	text-decoration: underline;
+}
+
+div
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+#img1
+{
+	width: 586px;
+	height: 309px;
+}
+aside
+{
+	font-family: "kasse", sans-serif;
+	border-bottom: 2px #810C12 solid;
+	border-left: 2px #810C12 solid;
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+}
+.bold
+{
+	font-weight: bold;
+}
+
+section
+{
+	margin:0% 10% 0% 10%;
+}
+p
+{
+	margin-top: 0px;
+	font-size: 22px;
+}
+li
+{
+	font-size: 22px;
+	margin-bottom: 12px;
+	margin-top: 12px;
+}
